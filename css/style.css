@@ -1,0 +1,45 @@
+body
+	{
+		background-color: #FBD3ED;
+	}
+
+a:link, a:visited
+	{
+		color:pink;
+		background-color: maroon;
+		text-decoration: none;
+		padding: 13px;
+		text-align: center;
+		display: inline-block;
+		font-family: verdana;
+	}
+
+a:hover
+	{
+		color: maroon;
+		background-color: #FF7A8C;
+		text-decoration: underline;
+	}
+
+a:active
+	{
+		color: white;
+		background-color: #FB465F;
+		text-decoration: underline;
+	}
+
+.content
+{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #FB465Ff;
+}
+
+.content h1
+{
+	font-size: 40px;
+	margin-top: 10px; 
+}
